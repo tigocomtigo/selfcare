@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-family: 'Lato';
+    font-style: normal;
+    white-space: nowrap;
+}
+
+header {
+    width: 1440;
+    height: 94;
+    position: absolute;
+}
+
+#estrelaLogo{
+    width: 19.81;
+    height: 19.94;
+    left: 69px;
+    top: 38.83px;
+    position: absolute;
+}
+
+#selfcareLogo{
+    position: absolute;
+    width: 91.28px;
+    height: 31px;
+    left: 97.42px;
+    top: 32px;
+}
+
+#pesquisa{
+    position: absolute;
+    top: 38px;
+    right: 192.8;
+}
+
+#brTopo{
+    width: 1440px;
+    height: 0px;
+    left: 1px;
+    top: 555px;
+    z-index: 9999;
+    border: 1px solid #E5E5E5;
+}
+
+#pesquisa2{
+    position: absolute;
+    height: 7.05px;
+    right: 189.86px;
+    top: 51.5px;
+}
+
+#cabeca{
+    position: absolute;
+    height: 10.57px;
+    right: 137px;
+    top: 39px;
+}
+
+#corpo{
+    position: absolute;
+    height: 7.93px;
+    right: 134.39px;
+    top: 51.85px;
+}
+
+#carrinho{
+    position: absolute;
+    right: 70.91;
+    top: 38.11;
+}
+
+#rodinha1{
+    position: absolute;
+    right: 83.4px;
+    top: 56.37px;
+}
+
+#rodinha2{
+    position: absolute;
+    right: 72.83;
+    top: 56.37;
+}
+
+#banner{
+    position: absolute;
+    top: 95px;
+}
+
+#promocao{
+    position: absolute;
+    top: 503px;
+    left: 69px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #161616;
+}
+
+.nomeDoProduto1{
+    width: 292px;
+    height: 26px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.coluna1{
+    left:70;
+}
+
+.coluna2{
+    left: 568px;
+}
+
+.coluna3{
+    left: 1066px;
+}
+
+.linha1{
+    top:938px;
+}
+
+.linha2{
+    top: 1396px;
+}
+
+.linha3{
+    top: 1854;
+}
+
+.cifra{
+    width: 292px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.linha1Preco{
+    top: 975px;
+}
+
+.linha2Preco{
+    top: 1433px;
+}
+
+.linha3Preco{
+    top: 1891px;
+}
+
+.valor{
+    position: relative;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #5CA720;
+}
+
+#noveProdutos{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    width: 87px;
+    height: 22px;
+    left: 1282px;
+    top: 504px;
+}
+
+.linha1Imagem{
+    top: 612px;
+}
+
+.linha2Imagem{
+    top: 1070px;
+}
+
+.linha3Imagem{
+    top: 1528px;
+}
+
+#centro{
+
+    background-color: #E5E5E5;
+}
+
+.textoRodape{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    left: 71px;
+    height: 24px;
+    color: black;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: #161616;
+}
+
+#contatoRodape{
+    top: 40px;
+    width: 77px;
+}
+
+#termosRodape{
+    top: 74px;
+    width: 77px;
+}
+
+#privacidadeRodape{
+    top: 108px;
+    width: 77px;
+}
+
+#cancelamentoRodape{
+    top: 142px;
+    width: 77px;
+}
+
+#newsletterRodape{
+    top: 55px;
+    left: 827px;
+}
+
+#footerCfg{
+    left: -6px;
+    top: 2037px;
+    width: 1446px;
+    height: 348px;
+    background-color: #F9F9F9;
+}
+
+#bgNewsletter{
+    top: 97px;
+    left: 827px;
+    width: 598px;
+    height: 54px;
+    background-color: white;
+    color: white;
+}
+
+
+
+#botaoInscrever{
+    width: 152px;
+    height: 54px;
+    background-color: #5CA720;
+    left: 397px;
+}
+
+#placeholderNewsletter{
+    width: 215px;
+    height: 24px;
+    left: 13px;
+    bottom: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #A8A4A4;
+    z-index: 9999;
+}
+
+#textoInscrever{
+    width: max-content;
+    height: max-content;
+    left: 34px;
+    top: 15px;
+
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    z-index: 9999;
+}
+
+#caixaTexto::-webkit-input-placeholder { /* Chrome, Safari, Opera */
+    position: absolute;
+    color: #929292;
+    font-size: 20px;
+}
+  
+#caixaTexto:-moz-placeholder { /* Firefox 18- */
+    position: absolute;
+    color: #929292;
+    opacity: 1;
+    font-size: 20px;
+}  
+#caixaTexto::-moz-placeholder {  /* Firefox 19+ */
+    position: absolute;
+    color: #929292;
+    opacity: 1;
+    font-size: 20px;
+} 
+#caixaTexto:-ms-input-placeholder { /* IE10+ */ 
+    position: absolute;
+    color: #929292;
+    font-size: 20px;
+}
+#caixaTexto{
+    border: none;
+    width: 380px;
+    height: 24px;
+    left: 13px;
+    top: 15px;
+    font-family: 'Lato';
+    color: #929292;
+    font-size: 20px;
+}
+
+.instaFace{
+    height: 34px;
+    width: 34px;
+    top: 259px;
+}
+
+#instagram{
+    left: 77px;
+}
+
+#facebook{
+    left: 130px;
+}
+
+#cartoes{
+    top: 259px;
+    left: 1187px;
+}
